@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="meeting_color_tech">#8d42f5</color>
+    <color name="meeting_color_cultural">#1A44CF</color>
+    <color name="meeting_color_politics">#67FF00</color>
+    <color name="meeting_color_sport">#10CED6</color>
+</resources>

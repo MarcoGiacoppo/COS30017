@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="roll">Scuotere</string>
+    <string name="add">Più</string>
+    <string name="subtract">Ridurre</string>
+    <string name="reset">Ripetere</string>
+</resources>

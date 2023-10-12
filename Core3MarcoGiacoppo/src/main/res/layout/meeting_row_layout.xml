@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- res/layout/meeting_row_layout.xml -->
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <!-- Main String -->
+    <TextView
+        android:id="@+id/textMain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Main String"
+        android:textSize="18sp"
+        android:textColor="#000" />
+
+    <!-- First Minor Text String -->
+    <TextView
+        android:id="@+id/textMinor1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textMain"
+        android:layout_marginTop="8dp"
+        android:text="Minor Text 1"
+        android:textColor="#888"
+        android:textSize="14sp" />
+
+    <!-- Second Minor Text String -->
+    <TextView
+        android:id="@+id/textMinor2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textMinor1"
+        android:layout_marginTop="4dp"
+        android:text="Minor Text 2"
+        android:textSize="14sp"
+        android:textColor="#888" />
+
+    <!-- Icon (ImageView) -->
+    <ImageView
+        android:id="@+id/imageIcon"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="8dp"
+        android:visibility="visible"
+        android:src="@drawable/online"
+        android:contentDescription="Meeting Icon" />
+</RelativeLayout>

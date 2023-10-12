@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="roll">Kocok</string>
+    <string name="add">Tambah</string>
+    <string name="subtract">Kurang</string>
+    <string name="reset">Ulang</string>
+</resources>
